@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { QuizzComponent } from './quizz/quizz.component';
 import { ScoreComponent } from './score/score.component';
 import { TimerComponent } from './timer/timer.component';
+import { HttpClientModule } from '@angular/common/http'
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { TimerComponent } from './timer/timer.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

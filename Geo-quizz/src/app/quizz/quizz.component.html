@@ -1,1 +1,23 @@
-<p>quizz works!</p>
+
+<div class="container  text-center">
+    <div class="row">
+        <div class="col-sm-4 reponse" >réponse 1</div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4 reponse">reponse 2</div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="col-sm-4 reponse" >reponse 3</div>
+        <div class="col-sm-1"></div>
+        <div class="col-sm-4 reponse">reponse 4</div>
+
+    </div>
+
+</div>
+<div> 
+    <app-timer (startEvent)="newGame($event)"></app-timer>
+</div>
+
+<p>{{time}}</p>
+<h1>{{message}}</h1>

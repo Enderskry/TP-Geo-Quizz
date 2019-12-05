@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+.reponse {
+    background-color: #337ab7;
+    padding: 15px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+.container{
+    margin: 0 auto;
+}
